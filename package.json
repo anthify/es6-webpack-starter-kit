@@ -1,0 +1,27 @@
+{
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^2.0.14",
+    "webpack-dev-server": "^3.1.1"
+  },
+  "babel": {
+    "presets": [
+      "env",
+      "stage-2"
+    ]
+  },
+  "name": "es6-webpack-start-kit",
+  "version": "1.0.0",
+  "description": "Quick start repo for modern javascript",
+  "main": "src/index.js",
+  "repository": "git@github.com:anthify/es6-webpack-starter-kit.git",
+  "author": "anthify <anthony.thomas.oneill@gmail.com>",
+  "license": "MIT"
+}
